@@ -73,7 +73,7 @@
     "compile": "tslint {src,test}/**/*.ts && tsc -watch -p ./",
     "pretest": "npm run coc:prepublish",
     "precommit": "npm run coc:prepublish",
-    "prebublish": "npm run coc:prepublish",
+    "prepublish": "npm run coc:prepublish",
     "test": ":",
     "build": ":"
   },

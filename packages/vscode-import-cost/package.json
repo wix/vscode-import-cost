@@ -109,7 +109,7 @@
     "postinstall": "node ./node_modules/vscode/bin/install",
     "pretest": "npm run vscode:prepublish",
     "precommit": "npm run vscode:prepublish",
-    "prebublish": "npm run vscode:prepublish",
+    "prepublish": "npm run vscode:prepublish",
     "test": "node ./node_modules/vscode/bin/test",
     "build": ":"
   },

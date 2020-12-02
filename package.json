@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "precommit": "lerna run precommit",
-    "postinstall": "lerna bootstrap --loglevel verbose",
+    "postinstall": "lerna link && lerna exec -- npm i && lerna bootstrap --loglevel verbose",
     "test": "lerna run test"
   },
   "devDependencies": {
