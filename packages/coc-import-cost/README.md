@@ -16,6 +16,13 @@ Once you have `coc.nvim` installed, open Vim/Neovim, and execute:
 :CocInstall coc-import-cost
 ```
 
+If you are using some plugin manager like [vim-plug][vim-plug] then add
+following line to your vim/nvim configuration file:
+
+```
+Plug 'wix/import-cost', { 'do': 'npm install', 'rtp': 'packages/coc-import-cost' }
+```
+
 You'll also need to enable the code lens feature in coc (`:CocConfig`):
 ```
 "codeLens.enable": true
@@ -67,3 +74,5 @@ The following properties are configurable:
 ## Known Issues
 
 * Importing two libraries with a common dependency will show the size of both libraries isolated from each other, even if the common library needs to be imported only once.
+
+[vim-plug]: https://github.com/junegunn/vim-plug
