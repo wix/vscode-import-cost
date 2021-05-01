@@ -26,7 +26,7 @@ https://citw.dev/posts/import-cost
 
 ## Developer guidelines
 
-In this project we use [lerna](https://lernajs.io/) for managing the multiple packages.
+In this project we use [lerna](https://lerna.js.org) for managing the multiple packages.
 
 ### Getting started
 
